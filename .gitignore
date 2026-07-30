@@ -1,0 +1,5 @@
+node_modules
+dist
+.env.partner.local
+*.local
+tsconfig.tsbuildinfo
