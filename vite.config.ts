@@ -31,7 +31,6 @@ export default defineConfig(({ mode }) => {
       strictPort: true,
       proxy: {
         "/v2/verify": {
-          // Staging (matches PARTNER_VERIFY_API_KEY from inji-verify-ui)
           target: "https://verify.pass.fayda.et",
           changeOrigin: true,
           secure: true,

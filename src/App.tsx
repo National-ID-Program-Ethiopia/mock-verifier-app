@@ -7,7 +7,7 @@ import {
 } from "./sdk";
 import { faydaPidPd } from "./pd";
 
-/** Platform RP DID — staging (matches injiverify.test.fayda.et). */
+/** Platform RP DID from FaydaPass onboarding. */
 const CLIENT_ID = "did:web:verify.pass.fayda.et:v1:verify";
 
 export default function App() {
@@ -110,7 +110,7 @@ export default function App() {
           </li>
         </ul>
         <p className="muted">
-          Proxy: <code>/v2/verify</code> → staging · clientId:{" "}
+          Proxy: <code>/v2/verify</code> · clientId:{" "}
           <code>{CLIENT_ID}</code>
         </p>
       </footer>
