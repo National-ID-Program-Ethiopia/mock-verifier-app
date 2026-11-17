@@ -4,11 +4,6 @@ export const faydaPidPd: PresentationDefinition = {
   id: "fayda-digital-credential",
   purpose:
     "Mock Verifier Portal is requesting your Fayda digital ID to complete verification",
-  format: {
-    "vc+sd-jwt": {
-      "sd-jwt_alg_values": ["ES256"],
-    },
-  },
   input_descriptors: [
     {
       id: "fayda-digital-credential",
